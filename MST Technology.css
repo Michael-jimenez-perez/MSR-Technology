@@ -11,7 +11,7 @@ img{
     padding: 0;
 }
 
-li, a, button{
+li, a, .contacto{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -73,4 +73,13 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.sabermas{
+  background-color: #cfb138;
+  border-radius: 3px;
+}
+
+.sabermas:hover{
+  background-color: #9c852a;
 }
