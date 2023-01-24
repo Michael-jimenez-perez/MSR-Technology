@@ -72,10 +72,5 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* para ocupar toda la pantalla */
+  text-align: center;
 }
-
-
-ping 10.90.90.90 /8 255.0.0.0
-
-10.0.0.2
