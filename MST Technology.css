@@ -29,6 +29,8 @@ header{
     padding: 0px 5%;
     justify-content: space-between;
     background-color:rgb(255, 255, 255);
+    margin: 10px 0px 20px 0px;
+    
 }
 
 .logo{
@@ -46,10 +48,11 @@ header{
 
 .lista li a{
     transition: 0.3s;
+    font-size: 18px;
 }
 
 .lista li a:hover{
-    color: blue;
+    color: black;
 }
 
 button{
@@ -90,15 +93,70 @@ body {
 }
 
 #slider-container {
-    overflow: hidden;
-    width: 100%;
-  }
+  overflow: hidden;
+  width: 100%;
+}
   
-  .slide {
-    width: 50%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+.slide {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
+section{
+  background-image:url(https://einatec.com/wp-content/uploads/2015/01/mantenimiento-informatico1-1.jpg);
+  background-blend-mode:darken;
+  background-size: 100%;
+  background-color: rgba(0,0,0,0.66);
+  color: white;
+  font-size: 35px;
+}
+
+section div{
+  margin: 10px;
+}
+
+footer{
+  height: 200px;
+  background-color: black;
+  bottom: 0;
+  width: auto;
+  color: white;
+  display: flex;
+}
+
+.redes{
+  justify-content: flex-end;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-tiktok {
+  background: black;
+  color: white;
+}
