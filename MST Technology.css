@@ -91,51 +91,51 @@ body {
 }
 
 #slider-container {
-    overflow: hidden;
-    width: 100%;
-  }
-  
-  .slide {
-    width: 50%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+  overflow: hidden;
+  width: 100%;
+}
 
-  section{
-    background-image:url(https://einatec.com/wp-content/uploads/2015/01/mantenimiento-informatico1-1.jpg);
-    background-blend-mode:darken;
-    background-size: 100%;
-    background-color: rgba(0,0,0,0.66);
-    color: white;
-  }
+.slide {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-  section div{
-    margin: 10px;
-  }
+section{
+  background-image:url(https://einatec.com/wp-content/uploads/2015/01/mantenimiento-informatico1-1.jpg);
+  background-blend-mode:darken;
+  background-size: 100%;
+  background-color: rgba(0,0,0,0.66);
+  color: white;
+}
 
-  .footer {
-    padding:50px 0;
-    background-color:#fff;
-    color:#4b4c4d;
-    justify-content: center;
-  }
+section div{
+  margin: 10px;
+}
+
+.footer {
+  padding:50px 0;
+  background-color:#fff;
+  color:#4b4c4d;
+  justify-content: center;
+}
   
-  .footer h3 {
-    margin-top:0;
-    margin-bottom:12px;
-    font-weight:bold;
-    font-size:16px;
-  }
+.footer h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
   
-  .footer ul {
-    padding:0;
-    list-style:none;
-    line-height:1.6;
-    font-size:14px;
-    margin-bottom:0;
-  }
+.footer ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
   
 .footer ul a {
   color:inherit;
@@ -168,10 +168,8 @@ body {
   text-align:center;
   border-radius:50%;
   opacity:0.75;
-  border:1px solid #ccc;
   margin-left:10px;
   margin-top:22px;
-  color:inherit;
 }
   
 .footer .copyright {
@@ -200,4 +198,53 @@ body {
 .centro{
   justify-content:center
 }
- 
+
+.fa {
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook:hover {
+    background: #1e2e4f;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  transition: 0.2s;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  transition: 0.2s;
+}
+
+.fa-twitter:hover {
+    background: #39709a;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  transition: 0.2s;
+}
+
+.fa-youtube:hover {
+  background: #6e0000;
+}
+
+.fa-instagram {
+  background: #f002c2;
+  color: white;
+  transition: 0.2s;
+}
+
+.fa-instagram:hover {
+  background: #a30184;
+  color: white;
+}
