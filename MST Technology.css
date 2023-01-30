@@ -115,15 +115,19 @@ body {
   display: flex;
 }
 
-.seccion2 div{
+.div1{
+  display: flex;
+  padding: 10px;
   background-color: blue;
   border-radius: 10px;
   margin: 5% 10%;
+  color: white;padding: 10px;
 }
 
-
-
-
+.estrella i{
+  font-size: 40px;
+  margin-right: 20px;
+}
 
 
 
