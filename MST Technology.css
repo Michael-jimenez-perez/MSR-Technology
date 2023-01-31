@@ -26,7 +26,12 @@ header{
     padding: 0px 5%;
     justify-content: space-between;
     background-color:rgb(255, 255, 255);
-    
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
 .logo{
@@ -78,6 +83,7 @@ body {
 .divfoto{
   width: 50%;
   margin-left: 10%;
+  padding-top: 100px;
 }
 
 .foto{
@@ -89,16 +95,19 @@ body {
 .divtitulo{
   margin-right: 10%;
   width: 50%;
+  padding-top: 100px;
 }
 
-.seccion {
+#seccion {
   display: flex;
   align-items: center;
-  background-image:url(https://einatec.com/wp-content/uploads/2015/01/mantenimiento-informatico1-1.jpg);
-  background-blend-mode:darken;
-  background-size: 100%;
-  background-color: rgba(0,0,0,0.66);
+  background-image:url(https://www.zrthemes.com/2022/idealsoft/assets/images/hero-bg.png);
+  background-size: cover;
   color: white;
+  height: 750px;
+  margin-top: -150px;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .sabermas{
@@ -112,6 +121,8 @@ body {
 
 .seccion2{
   display: flex;
+  transition: all 500ms ease-out;
+      -webkit-transition: all 500ms ease-out;
 }
 
 .div1{
@@ -127,7 +138,6 @@ body {
 
 .div1 div h2{
   font-size: 27px;
-  padding-top: ;
 }
 
 .div1 div p{
@@ -156,7 +166,10 @@ body {
 }
 
 
-
+.seccion {
+  opacity: 0;
+  transition: opacity 1s;
+}
 
 
 
