@@ -39,22 +39,47 @@ li, a, .contacto{
     transition: 0.3s;
 }
 
-.lista{
-    list-style: none;
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.lista li{
-    display: inline-block;
-    padding: 0px 20px;
+.nav-menu li {
+  flex: 1;
+  text-align: center;
 }
 
-.lista li a{
-    transition: 0.3s;
+.nav-menu a {
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  position: relative;
 }
 
-.lista li a:hover{
-    color: blue;
+.nav-menu a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
 }
+
+.nav-menu a:hover:after {
+  transform: scaleX(1);
+}
+
+
+
+
+
+
 
 button{
     padding: 9px 25px;
@@ -159,6 +184,7 @@ body {
 
 .laptop{
   font-size: 40px;
+  padding-right: 20px;
 }
 
 
@@ -167,11 +193,26 @@ body {
   transition: opacity 1s;
 }
 
+.servicios{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.servicios div{
+  text-align: center;
+  margin: 30px;
+  border: solid black;
+  width: 33.33333333%;
+  border-radius: 8px;
+  transition: 0.2s
+}
 
-
-
-
+.servicios div:hover{
+  background-color: #034099;
+  color: white;
+  cursor: pointer;
+}
 
 
 
