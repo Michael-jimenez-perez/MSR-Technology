@@ -62,7 +62,7 @@ li, a, .contacto{
   content: "";
   display: block;
   height: 2px;
-  background-color: black;
+  background-color: #034099;
   position: absolute;
   bottom: 0;
   left: 0;
