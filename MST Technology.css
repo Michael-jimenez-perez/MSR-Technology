@@ -60,27 +60,33 @@ li, a, .contacto{
   position: relative;
   font-size: 18px;
   color: #034099;
-
 }
 
-.nav-menu a:after {
-  content: "";
-  display: block;
-  height: 2px;
-  background-color: #034099;
+a:after {
+  content: '';
   position: absolute;
-  bottom: 0;
   left: 0;
-  transform: scaleX(0);
-  transition: transform 250ms ease-in-out;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
 }
 
-.nav-menu a:hover:after {
-  transform: scaleX(1);
+a.effect-underline:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 
 .links{
   width: 70%;
+  margin-left: 75px;
 }
 
 .registro{
