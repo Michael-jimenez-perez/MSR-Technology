@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');.logo{
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .logo:hover{
   filter: brightness(50%);
