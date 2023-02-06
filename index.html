@@ -15,12 +15,16 @@
 <body>
     <header id="header">
         <img class="logo" src="IMAGENES/MSR-removebg-preview.png" alt="logo">
-        <nav>
-            <ul class="nav-menu">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Servicios</a></li>
-              </ul>
+        <nav class="links">
+            <div>
+                <ul class="nav-menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            
         </nav> 
         <div class="search">
             <input type="text" class="search__input" placeholder="Type your text">
@@ -31,8 +35,11 @@
                     </g>
                 </svg>
             </button>
-        </div>       
-        <a class="contacto" href="#"><button class="contactoboton">Contacto</button></a>
+        </div> 
+        <div class="registro">
+            <button>Iniciar sesión</button>
+            <button>Registrarse</button>
+        </div>     
     </header>
     <br><br><br>
     <section id="seccion">
@@ -51,7 +58,6 @@
         
         </div>
       </section>
-      <button><a href="#" class="button hvr-sweep-to-right">Checkout</a></button>
       <section class="seccion2">
         <div class="div1">
             <div class="estrella">
@@ -77,25 +83,24 @@
         </div>
       </section>
 
-      <section id="miSeccion">
-        Contenido de mi sección
-      </section>
-
-
       <section class="servicios">
-        <div class="mantenimiento hvr-sweep-to-right">
+        <div class="mantenimiento">
+            <i class="fa-solid fa-screwdriver-wrench reparacion"></i>
             <h4>Mantenimiento</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </div>
         <div class="instalacion">
+            <i class="fa-brands fa-windows"></i>
             <h4>Instalación del S.O</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </div>
         <div class="seguridad">
+            <i class="fa-solid fa-shield-halved"></i>
             <h4>Seguridad</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </div>
         <div class="limpieza">
+            <i class="fa-solid fa-hard-drive"></i>
             <h4>Limpieza</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </div>
@@ -137,10 +142,10 @@
                     </div>
 
                     <div class="col-lg-3 item social">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-youtube"></a>
-                        <a href="#" class="fa fa-instagram"></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
                         <p class="copyright">MSR Technology ©2023</p>
                     </div>
 
