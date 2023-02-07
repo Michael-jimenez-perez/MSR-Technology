@@ -3,13 +3,12 @@
 // Parametros a configurar para la conexion de la base de datos
 
 $hostdb = "localhost";    // sera el valor de nuestro HOST
-$basededatos = "BBDD-1";    // sera el valor de nuestra BD
+$basededatos = "msr";    // sera el valor de nuestra BD
 
 $usuariodb = "root";    // sera el valor de nuestra BD
 $clavedb = "";    // sera el valor de nuestra BD
 
-$tabla_db1 = "alumnos";    // sera el valor de una tabla
-$tabla_db2 = "otratabla";    // sera el valor de otra tabla
+$clientes = "clientes";    // sera el valor de una tabla
 
 // Fin de los parametros a configurar para la conexion de la base de datos
 

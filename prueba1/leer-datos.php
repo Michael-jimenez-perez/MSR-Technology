@@ -10,16 +10,16 @@
       <td width='150' style='font-weight: bold'>ID</td> 
       <td width='150' style='font-weight: bold'>NOMBRE</td> 
       <td width='150' style='font-weight: bold'>E-MAIL.</td> 
-      <td width='150' style='font-weight: bold'></td> 
+      <td width='150' style='font-weight: bold'>CONTRASEÑA</td> 
     </tr> 
 <?php 
 include('abre_conexion.php'); 
 
-    $query = "select * from $tabla_db1";     // Esta linea hace la consulta
+    $query = "select * from $clientes";     // Esta linea hace la consulta
     $result = mysqli_query($conexion_db,$query); 
 
     while ($registro = mysqli_fetch_array($result)){ 
-      echo "<tr><td width='150'>".$registro['id']."</td> <td width='150'>".$registro['nombre']."</td> <td width='150'>".$registro['email']."</td> <td width='150'></td> </tr>"; 
+      echo "<tr><td width='150'>".$registro['id']."</td> <td width='150'>".$registro['nombre']."</td> <td width='150'>".$registro['email']."</td> <td width='150'>".$registro['contraseña']."</td><td width='150'></td> </tr>"; 
     } 
 include('cierra_conexion.php'); 
 ?> 

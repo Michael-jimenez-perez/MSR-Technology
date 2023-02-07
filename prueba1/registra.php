@@ -11,12 +11,12 @@
 
 $nombre = $_POST["nombre"];   
 $email = $_POST["email"];   
-$fecha = date("d-m-Y");   
+$contraseña = $_POST["contraseña"]  
 
 // Abrimos la conexion a la base de datos   
 include("abre_conexion.php");   
 
-$_GRABAR_SQL = "INSERT INTO $tabla_db1 (nombre,email,fecha) VALUES ('$nombre','$email','$fecha')";   
+$_GRABAR_SQL = "INSERT INTO $clientes (nombre,email,contraseña) VALUES ('$nombre','$email','$contraseña')";   
 mysqli_query($conexion_db,$_GRABAR_SQL);  
 
 // Cerramos la conexion a la base de datos   
