@@ -21,7 +21,7 @@ li, a, .contacto{
 #header{
     display: flex;
     align-items: center;
-    padding: 0px 5%;
+    padding: 0px 2%;
     justify-content: space-between;
     background-color:white;
     position: fixed;
@@ -84,7 +84,7 @@ a.effect-underline:hover:after {
 
 .links{
   width: 70%;
-  margin-left: 75px;
+  margin-left: 30px;
 }
 
 .registro{
