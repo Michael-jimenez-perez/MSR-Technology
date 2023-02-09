@@ -9,7 +9,7 @@ html{
 }
 
 .logo:hover{
-  filter: brightness(50%);
+  filter: brightness(75%);
 }
 
 *{
@@ -25,17 +25,22 @@ li, a, .contacto{
     text-decoration: none;
 }
 
-#header{
-    display: flex;
-    align-items: center;
-    padding-left: 2%;
-    justify-content: space-between;
-    background-color:white;
-    position: fixed;
-    right: 0;
-    top: 0;
-    left: 0;
-    background-color: transparent;
+#header {
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#header.scrolled{
+  background-color: white;
 }
 
 .logo{
@@ -46,6 +51,7 @@ li, a, .contacto{
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
 
 .nav-menu {
   display: flex;
@@ -65,8 +71,10 @@ li, a, .contacto{
   text-decoration: none;
   position: relative;
   font-size: 18px;
-  color: #034099;
+  color: white;
+  transition: color 0.2s;
 }
+
 
 a:after {
   content: '';
