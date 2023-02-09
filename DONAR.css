@@ -158,37 +158,48 @@ a.effect-underline:hover:after {
   }
 
 
-
-
-
-
-.principio{
-    height: 20%;
-    align-items: center;
-    margin: 0 60px;
-    vertical-align: middle;
-    margin-top: 200px;
-}
-
 .titulo{
-    font-size: 30px;
-    width: 25%;
-    position: absolute;
-    height: 30%;
-    width: 50%;
-    padding-top: 50px;
+    display: flex;
+    margin-top: 200px;
+    height: 300px;
+}
+
+.bloque{
+    background-color: #bf0a30;
+    padding: 20px;
+    margin-left: 80px;
+    width: 35%;
+    color: white;
+    font-family: 'Poppins';
+    transition: 0.2s;
 }
 
 
 
-
-
-
-
-.box{
-    width: 77%;
+.titulo h1{
+    font-size: 50px;
 }
 
+.titulo p{
+    padding-bottom: 20px;
+}
+
+
+#slider {
+    overflow: hidden;
+    height: 500px;
+  }
+  
+.seccion2 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+  
+
+.titulo img{
+    width: 20%;
+}
 
 .formulario input[type=text]{
     width: 90%;
@@ -257,13 +268,7 @@ input[type=submit] {
     padding: 10px;
 }
 
-.contacto{
-    float: left;
-    font-size: 20px;
-    width: 40%;
-    padding: 25px;
-    margin-left: 8%;
-}
+
 
 .informacion{
     text-align: center;
@@ -313,10 +318,7 @@ footer{
 
 
 
-.hidden {
-    display: none;
-}
-input[type=number]{
+put[type=number]{
     width: 90%;
     padding: 12px 20px;
     margin: 8px 20px;
@@ -337,7 +339,6 @@ input[type=number]::-webkit-outer-spin-button {
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-    overflow: hidden; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */    
 }
@@ -386,48 +387,40 @@ input[type=number]::-webkit-outer-spin-button {
     cursor: pointer;
 }
 
+.display{
+    display: flex;
+}
+
 .button {
     font-size: 20px;
     padding: 10px;
-    border: 2px solid #06D85F;
+    border: 2px solid white;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
-    margin: 0px;
     width: 100%;
+    color: white;
 }
 
 #boton1{
-    float: left;
     font-size: 14px;
-    padding: 10px;
-    border: 2px solid #06D85F;
+    border: 2px solid white;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
-    width: 21%;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-
+    width: 10%;
 }
 
 #boton2{
-    width: 35%;
-    margin: 0px;
-    float:left;
-    margin-left: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    width: 20%;
     font-size: 14px;
+    margin-left: 20px;
 }
 
 .button:hover {
     background: #06D85F;
 }
 
-.box{
-    width: 77%;
-}
 
 
 .formulario input[type=text]{
@@ -468,3 +461,4 @@ input[type=submit] {
     margin: 0px 20px;
     font-size: 18px;
 }
+
