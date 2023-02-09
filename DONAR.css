@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin:0;
+    padding:0;
+}
+
+html{
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    font-family: "Poppins";
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+li, a, .contacto{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    justify-content: space-between;
+    background-color:white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    cursor: pointer;
+    width: 8%;
+    margin: 5px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  text-align: center;
+  padding: 20px;
+}
+
+.nav-menu a {
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  position: relative;
+  font-size: 18px;
+  color: #034099;
+}
+
+#header a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+a.effect-underline:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.links{
+  width: 70%;
+  margin-left: 30px;
+}
+
+.registro{
+  width: 25%;
+  margin-right: 50px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 100px;
+  
+  }
+  
+  .search__input {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #f4f2f2;
+    border: solid rgb(94, 94, 94) 1px;
+    color: black;
+    padding: 9px 10px;
+    border-radius: 30px;
+    transition: all ease-in-out .5s;
+    margin-right: -2rem;
+    width: 200px;
+    height: 20px;
+  }
+  
+  .search__input:hover, .search__input:focus {
+    box-shadow: 0 0 1em #00000013;
+  }
+  
+  .search__input:focus {
+    outline: none;
+    background-color: #f0eeee;
+  }
+  
+  .search__input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: rgb(149, 149, 149);
+  }
+  
+  .search__input:focus + .search__button {
+    background-color: #f0eeee;
+  }
+  
+  .search__button {
+    border: none;
+    background-color: #f4f2f2;
+    margin-top: .1em;
+  }
+  
+  .search__button:hover {
+    cursor: pointer;
+  }
+  
+  .search__icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: #b4b4b4;
+  }
+
+
+
+
+
+
+.principio{
+    height: 20%;
+    align-items: center;
+    margin: 0 60px;
+    vertical-align: middle;
+    margin-top: 200px;
+}
+
+.titulo{
+    font-size: 30px;
+    width: 25%;
+    position: absolute;
+    height: 30%;
+    width: 50%;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+.box{
+    width: 77%;
+}
+
+
+.formulario input[type=text]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario textarea{
+    margin: 8px 20px;
+    width: 90%;
+    padding: 10px;
+    height:75px;
+}
+
+.formularioh5{
+    font-size: 20px;
+    border-bottom: solid 1px;
+    padding: 10px;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 75%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.enviar{
+    border-top: solid 1px;
+}
+
+.formulario label{
+    margin: 0px 20px;
+    font-size: 18px;
+}
+
+
+
+
+
+.condiciones{
+    padding: 5px;
+    font-size: 16px;
+}
+
+.listas{
+    border: solid 1px rgba(0,0,0,.125);
+    width: 100%;
+    border-radius: 5px;
+}
+
+.lista{
+    font-size: 16px;
+    list-style: none;
+    border-bottom: solid 1px rgba(0,0,0,.125);
+    padding: 10px;
+}
+
+.contacto{
+    float: left;
+    font-size: 20px;
+    width: 40%;
+    padding: 25px;
+    margin-left: 8%;
+}
+
+.informacion{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.listadatos{
+    list-style: none;
+}
+
+.direccion{
+    border-bottom: solid 1px rgba(0,0,0,.125);
+}
+
+.listacontacto{
+    border-bottom: solid 1px rgba(0,0,0,.125);
+    padding: 8px 16px;
+}
+table{
+    border-radius: 3px;
+    border-collapse: collapse;
+}
+table tr td{
+    padding: 5px;    
+}
+
+.mapa{
+    float: right;
+    font-size: 20px;
+    padding: 25px;
+    margin-bottom: 15%;
+    margin-right: 15%;
+}
+
+.fotomapa{
+    width: 100%;
+}
+
+footer{
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+
+.hidden {
+    display: none;
+}
+input[type=number]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; }
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */    
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 0.5s;
+    visibility: hidden;
+    opacity: 0;
+
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+  
+  /* Modal Content/Box */
+.content {
+    background-color: #fefefe;
+    margin: 1% auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+    border-radius: 5px;
+    transition: opacity 0.5s;
+    color: black;
+    font-size: 16px;
+    height: 700px;
+}
+  
+  /* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+.close:hover, .close:focus {
+    color: black;
+    cursor: pointer;
+}
+
+.button {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #06D85F;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    margin: 0px;
+    width: 100%;
+}
+
+#boton1{
+    float: left;
+    font-size: 14px;
+    padding: 10px;
+    border: 2px solid #06D85F;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    width: 21%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+#boton2{
+    width: 35%;
+    margin: 0px;
+    float:left;
+    margin-left: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+}
+
+.button:hover {
+    background: #06D85F;
+}
+
+.box{
+    width: 77%;
+}
+
+
+.formulario input[type=text]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.formularioh5{
+    font-size: 18px;
+    border-bottom: solid 1px;
+    padding: 10px;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 75%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.enviar{
+    border-top: solid 1px;
+}
+
+.introducir{
+    margin: 0px 20px;
+    font-size: 18px;
+}
