@@ -21,7 +21,7 @@ li, a, .contacto{
 #header{
     display: flex;
     align-items: center;
-    padding: 0px 2%;
+    padding-left: 2%;
     justify-content: space-between;
     background-color:white;
     position: fixed;
@@ -89,18 +89,29 @@ a.effect-underline:hover:after {
 
 .registro{
   width: 25%;
-  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 10px;
 }
 
-.registro button{
-  padding: 10px;
-  margin-left: 10px;
+.cuenta:hover{
+  background-color: #b4b4b4;
+  border-radius: 10px;
+}
+
+.cuenta i{
+  padding-right: 20px;
+  font-size: 20px;
 }
 
 .search {
   display: flex;
   align-items: center;
   text-align: center;
+  margin-right: 200px;
+
 }
 
 .search__input {
