@@ -18,7 +18,7 @@ li, a, .contacto{
     text-decoration: none;
 }
 
-#header{
+header{
     display: flex;
     align-items: center;
     padding-left: 2%;
@@ -83,7 +83,7 @@ a.effect-underline:hover:after {
 }
 
 .links{
-  width: 70%;
+  width: 80%;
   margin-left: 30px;
 }
 
@@ -110,7 +110,7 @@ a.effect-underline:hover:after {
   display: flex;
   align-items: center;
   text-align: center;
-  margin-right: 200px;
+  margin-right: 100px;
 
 }
 
@@ -199,16 +199,18 @@ body {
  
 .sabermas{
   margin-top: 10px;
-  background-color: #1a44ff;
+  background-color: #ac922d;
   padding: 10px;
   cursor: pointer;
   border-radius: 5px;
-  border: solid #1a44ff;
+  border: solid #ac922d;
   color: white;
+  transition: 0.5s;
 }
 
 .sabermas:hover{
-
+  background-color: #8b7727;
+  border: solid #8b7727;
 }
 
 .seccion2{
