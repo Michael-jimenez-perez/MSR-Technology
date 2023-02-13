@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin:0;
+    padding:0;
+}
+
+html{
+    background-size: cover;
+    background-color: #fff;
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    font-family: "Poppins";
+    background-color: #fff;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+header{
+    margin: auto;
+}
+
+header nav {
+    overflow: hidden;
+    text-align: center;
+    height: 80px;
+    padding-bottom: 25px;
+}
+
+header nav ul {
+    list-style : none;
+    justify-content: center;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+
+header nav ul li {
+    float: left;
+    -ms-transform: translateY(40%);
+    transform: translateY(40%);
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display:block;
+    color: rgb(67, 60, 60);
+    text-decoration :none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: rgb(91, 90, 90);
+}
+
+.logo{
+    -ms-transform: translateY(-70%);
+    transform: translateY(-70%);
+    width: 100px;
+    margin: 0%;
+
+}
+
+.contact_form{  
+    width: 500px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+    margin-right: 20%;
+  }
+  
+input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #034099; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+  
+textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #034099; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+    resize: none;
+}
+  
+label{
+    display: block; 
+}
+  
+  
+#enviar{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #034099; 
+    border-color: #034099; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 70%;   
+    cursor: pointer;
+}
+
+input[type=reset]{
+    width: 25%;
+    text-align: center;
+    height: 45px;
+    border-radius: 10px;
+}
+
+button p{
+    color: #fff; 
+}
+  
+span{
+    color: red; 
+}
+  
+.aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+}
+  
+h1{
+    font-size: 39px;  
+    text-align: left; 
+    padding-bottom: 20px; 
+    color: #034099;
+}
+
+h2{
+    color: black;
+    font-size: 18px;
+}
+   
+h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+}
+   
+p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+}
+   
+.placeholder {
+   color: #a8a8a8;
+}
+  
+.formulario input:focus{
+    outline:0;
+    border: 1px solid #034099;
+}
+  
+.formulario textarea:focus{
+    outline:0;
+    border: 1px solid #034099;
+}
+
+footer{
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.mifooter{
+    color: white;
+    padding: 20px;
+    background-color: black;
+}
+
+.miembros{
+    color: white;
+    padding-left: 20px;
+}
+
+.copyright{
+    color: grey;
+    padding: 20px;
+    padding-top: 0%;
+    background-color: black;
+}
+
+.twitter{
+    width: 2%;
+    float: right;
+    padding-right: 5px;
+}
+
+.instagram{
+    width: 2%;
+    float: right;
+    padding-right: 5px;
+}
+
+.facebook{
+    width: 2%;
+    float: right;
+    padding-right: 5px;
+}
+.hidden {
+    display: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; }
