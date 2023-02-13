@@ -229,6 +229,11 @@ a.effect-underline:hover:after {
     align-items: center;
 }
 
+.trabajamos h2{
+  padding: 30px;
+}
+
+
 .hacemos div{
     background-color: rgb(222, 222, 222);
     text-align: center;
@@ -527,6 +532,7 @@ input[type=submit] {
     color:white;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: -40px;
   }
     
   .footer h3 {
