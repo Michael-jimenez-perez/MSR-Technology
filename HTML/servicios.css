@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+html{
+    font-family: 'Poppins';
+}
+
 .logo:hover{
   filter: brightness(50%);
 }
@@ -24,10 +28,6 @@ header{
     padding-left: 2%;
     justify-content: space-between;
     background-color:white;
-    position: fixed;
-    right: 0;
-    top: 0;
-    left: 0;
 }
 
 .logo{
@@ -179,6 +179,126 @@ a.effect-underline:hover:after {
   color: #0066cc;
   border: solid 2px #0066cc;
 }
+
+.servicios{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    justify-content: center;
+}
+
+
+.servicio {
+	transition: .3s;
+	padding: 40px;
+    border-radius: 15px;
+	text-align: center;
+	margin-top: 40px;
+	background: #e8e8e8;
+	box-shadow: 0 10px 40px 0 rgb(50 50 50 / 10%);
+    margin: 30px;
+}
+
+.servicio:hover .contenido-servicio h5 {
+	color: #003980;
+}
+.icono-servicio {
+	position: relative;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border: 2px solid #0066CC;
+    font-size: 40px;
+    background: #fff;
+    box-sizing: content-box;
+    border-radius: 50%;
+    color: #0066CC;
+    margin: auto;
+	margin-bottom: 30px;
+}
+.icono-servicio i{
+	position: absolute;
+	left: 23px;
+	top: 30px;
+	width: 55px;
+}
+.servicio:hover .signle-service-dot:first-child {
+	-webkit-animation-play-state: running;
+	animation-play-state: running;
+} 
+.signle-service-dot:first-child {
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-animation: dot-animation 2s linear infinite;
+	animation: dot-animation 2s linear infinite;
+	-webkit-animation-play-state: paused;
+	animation-play-state: paused;
+}
+@-webkit-keyframes dot-animation {
+ 0% {
+ -webkit-transform:rotate(0deg);
+ transform:rotate(0deg)
+}
+ to {
+ -webkit-transform:rotate(1turn);
+ transform:rotate(1turn)
+}
+}
+ @keyframes dot-animation {
+ 0% {
+ -webkit-transform:rotate(0deg);
+ transform:rotate(0deg)
+}
+ to {
+ -webkit-transform:rotate(1turn);
+ transform:rotate(1turn)
+}
+}
+.icono-servicio  .signle-service-dot {
+	width: 100%;
+	height: 100%;
+	left: 56%;
+	top: 8%;
+}
+.icono-servicio  .dots {
+	width: 15px;
+	height: 15px;
+	background: #0066cc;
+	border-radius: 50%;
+	left: 14px;
+	top: 0;
+	position: relative;
+}
+
+.contenido-servicio h5 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	transition: .3s;
+}
+.contenido-servicio p {
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
