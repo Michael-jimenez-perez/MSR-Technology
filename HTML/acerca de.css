@@ -201,17 +201,14 @@ body {
   align-items: center;
   color: white;
   height: 300px;
+  flex-wrap: wrap;
 }
 
-
-.about ul li{
-  display: inline-block;
-  margin-right: 25px;
+.about p{
+  width: 40%;
 }
-
 
 .seccion{
-  display: flex;
   background-color: white;
 }
 

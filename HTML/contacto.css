@@ -18,71 +18,30 @@ body{
     margin-bottom: 40px;
 }
 
-header{
-    margin: auto;
+section{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
 }
 
-header nav {
-    overflow: hidden;
-    text-align: center;
-    height: 80px;
-    padding-bottom: 25px;
-}
-
-header nav ul {
-    list-style : none;
-    justify-content: center;
-    display: inline-block;
-    padding-bottom: 0px;
-    padding-top: 20px;
-}
-
-header nav ul li {
-    float: left;
-    -ms-transform: translateY(40%);
-    transform: translateY(40%);
-}
-
-header nav ul li a {
-    padding: 10px 20px;
-    display:block;
-    color: rgb(67, 60, 60);
-    text-decoration :none;
-    font-size: 13px;
-    font-weight: bold;
-}
-
-header nav ul li a:hover {
-    color: rgb(91, 90, 90);
-}
-
-.logo{
-    -ms-transform: translateY(-70%);
-    transform: translateY(-70%);
-    width: 100px;
-    margin: 0%;
-
+.inicio{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 30%;
 }
 
 .contact_form{  
-    width: 500px; 
-    height: auto;
-    margin: 80px auto;
+    width: 40%; 
     border-radius: 10px;  
-    padding-top: 30px;
-    padding-bottom: 20px;  
-    background-color: #fbfbfb; 
-    padding-left: 30px; 
-    margin-right: 20%;
+    background-color: #fbfbfb;
+    margin-top: 20px;
   }
   
 input{
     background-color: #fbfbfb; 
-    width: 408px; 
     height: 40px; 
     border-radius: 5px;  
-    border-style: solid; 
-    border-width: 1px; 
+    border: solid 1px; 
     border-color: #034099; 
     margin-top: 10px;  
     padding-left: 10px;
@@ -91,8 +50,8 @@ input{
   
 textarea{
     background-color: #fbfbfb; 
-    width: 405px; 
-    height: 150px; 
+    width: 80%; 
+    height: 200px; 
     border-radius: 5px;  
     border-style: solid; 
     border-width: 1px; 
@@ -103,12 +62,13 @@ textarea{
     padding-top: 15px; 
     resize: none;
 }
-  
-label{
-    display: block; 
+
+input{
+    width: 80%;
 }
-  
-  
+
+
+
 #enviar{
     height: 45px; 
     padding-left: 5px;
@@ -116,55 +76,75 @@ label{
     margin-bottom: 20px; 
     margin-top: 10px;   
     text-transform: uppercase;
-    background-color: #034099; 
-    border-color: #034099; 
+    background-color: #0045ac; 
+    border-color: #0045ac; 
     border-style: solid; 
     border-radius: 10px;  
-    width: 70%;   
+    width: 56%;   
     cursor: pointer;
+    color: white;
+    transition: 0.2s;
 }
 
-input[type=reset]{
+#enviar:hover{
+    background-color: #002d6f;
+    border-color: #002d6f;
+}
+
+#reset{
     width: 25%;
     text-align: center;
     height: 45px;
     border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#reset:hover{
+    background-color: rgb(205, 205, 205);
+    color: white;
+}
+
+#nombre{
+    width: 37%;
+}
+
+#email{
+    width: 37%;
+    margin-left: 3%;
+}
+
+.inicio a{
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.inicio a:hover{
+    filter: brightness(50%);
 }
 
 button p{
     color: #fff; 
 }
   
-span{
-    color: red; 
-}
-  
-.aviso{
-    font-size: 13px;  
-    color: #0e0e0e;  
-}
-  
-h1{
-    font-size: 39px;  
+h2{
+    font-size: 33px;  
     text-align: left; 
-    padding-bottom: 20px; 
     color: #034099;
 }
 
-h2{
-    color: black;
-    font-size: 18px;
-}
-   
+
 h3{
-    font-size: 16px; 
-    padding-bottom: 30px;
-    color: #0e0e0e;   
+    font-size: 30px;   
 }
-   
-p{
-    font-size: 14px; 
-    color: #0e0e0e; 
+
+h5{
+    font-size: 16px;
+}
+
+.botom{
+    font-size: 14px;
+    margin-bottom: 40px;
 }
    
 .placeholder {
