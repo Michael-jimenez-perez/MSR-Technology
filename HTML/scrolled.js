@@ -8,14 +8,14 @@ window.onscroll = function() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         let links = document.querySelectorAll('.nav-menu a');
         for (let link of links) {
-        link.style.color = "blue";
+        link.style.color = "#0066CC";
         link.style.transition = "color 0.2s";
         }
     }
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         let links = document.querySelectorAll('.nav-menu a');
         for (let link of links) {
-          link.style.color = "blue";
+          link.style.color = "#0066CC";
           link.style.transition = "color 0.2s";
         }
       } else {

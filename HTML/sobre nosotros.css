@@ -73,6 +73,7 @@ li, a, .contacto{
   font-size: 18px;
   color: white;
   transition: color 0.2s;
+  color: #0066CC;
 }
 
 
@@ -99,17 +100,35 @@ a.effect-underline:hover:after {
 }
 
 .links{
-  width: 70%;
+  width: 80%;
   margin-left: 30px;
 }
 
 .registro{
-  width: 15%;
+  width: 30%;
   margin-right: 50px;
   padding: 10px;
   cursor: pointer;
   transition: 0.2s;
   border-radius: 10px;
+}
+
+.registro button{
+  padding: 10px;
+  background-color: #0066CC;
+  margin-left: 10px;
+  color: white;
+  border: solid #0066cc 2px;
+  cursor: pointer;
+  transition : 234ms;
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.registro button:hover{
+  background-color: #fff;
+  color: #0066cc;
+  border: solid 2px #0066cc;
 }
 
 .cuenta:hover{
@@ -126,7 +145,7 @@ a.effect-underline:hover:after {
   display: flex;
   align-items: center;
   text-align: center;
-  margin-right: 200px;
+  margin-right: 60px;
 
 }
 
@@ -190,8 +209,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   color: white;
+  margin-top: 200px;
 }
 
 .titulo {
@@ -212,15 +231,18 @@ body {
 }
 
 .bloques{
-  background-color: white;
-  width: 40%;
+  background-color: #273493a7;
+  width: 20%;
   height: 300px;
-  border: solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   padding: 50px;
+  margin: 20px;
+  border-radius: 100%;
+  color: white;
+  border: solid 2px white;
 }
 
 .sancet {
@@ -237,5 +259,146 @@ body {
 
 .courtois {
   width: 50%;
+}
+
+.fa {
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-facebook {
+  color: white;
+  transition: 0.2s;
+}
+
+.fa-facebook:hover {
+  color: white;
+  filter: brightness(70%);
+}
+
+.fa-twitter {
+  color: white;
+  transition: 0.2s;
+}
+
+.fa-twitter:hover {
+  color: white;
+  filter: brightness(70%);
+}
+
+.fa-tiktok {
+  color: white;
+  transition: 0.2s;
+}
+
+.fa-tiktok:hover {
+  color: white;
+  filter: brightness(70%);
+}
+.fa-instagram {
+  color: white;
+  transition: 0.2s;
+}
+
+.fa-instagram:hover {
+  color: white;
+  filter: brightness(60%);
+}
+
+.bloques i {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.fa-envelope{
+  color: white;
+  transition: 0.2s;
+}
+
+.fa-envelope:hover{
+  color: white;
+  filter: brightness(60%);
+}
+
+.footer {
+  padding:50px 0;
+  background-color:rgb(59, 59, 59);
+  color:white;
+  justify-content: center;
+  margin-top: 50px;
+}
+  
+.footer h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+  
+.footer ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+  
+.footer ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+  
+.footer ul a:hover {
+    opacity:1;
+}
+  
+.footer .item.social {
+    text-align:right;
+}
+  
+  
+  
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+      text-align:center;
+  }
+}
+  
+.footer .item.social > a {
+  font-size:25px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  opacity:0.75;
+  margin-top: 30px;
+}
+  
+.footer .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
+
+.container{
+  margin:0 auto;
+}
+
+ 
+.columna{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.col-md-3{
+  flex:0 0 25%;
+}
+
+.centro{
+  justify-content:center
 }
 

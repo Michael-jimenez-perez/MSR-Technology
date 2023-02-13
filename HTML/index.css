@@ -96,21 +96,13 @@ a.effect-underline:hover:after {
   border-radius: 10px;
 }
 
-.cuenta:hover{
-  background-color: #b4b4b4;
-  border-radius: 10px;
-}
 
-.cuenta i{
-  padding-right: 20px;
-  font-size: 20px;
-}
 
 .search {
   display: flex;
   align-items: center;
   text-align: center;
-  margin-right: 100px;
+  margin-right: 60px;
 
 }
 
@@ -160,6 +152,32 @@ a.effect-underline:hover:after {
   height: 1.3em;
   width: 1.3em;
   fill: #b4b4b4;
+}
+.registro{
+  width: 30%;
+  margin-right: 50px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 10px;
+}
+
+.registro button{
+  padding: 10px;
+  background-color: #0066CC;
+  margin-left: 10px;
+  color: white;
+  border: solid #0066cc 2px;
+  cursor: pointer;
+  transition : 234ms;
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.registro button:hover{
+  background-color: #fff;
+  color: #0066cc;
+  border: solid 2px #0066cc;
 }
 
 * {box-sizing: border-box;}
