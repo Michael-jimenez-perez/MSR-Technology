@@ -315,6 +315,16 @@ a.effect-underline:hover:after {
     box-sizing: border-box;
 }
 
+.formulario input[type=number]{
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 .formulario textarea{
     margin: 8px 20px;
     width: 90%;
